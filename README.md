@@ -1,3 +1,27 @@
+# React-Redux Tutorial Toolkit converted to Typescript
+
+## Add typescript to existing create-react-app
+```
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+# or
+
+yarn add typescript @types/node @types/react @types/react-dom @types/jest
+```
+
+## Convert .js files to .ts and .tsx as appropriate
+* src/components/ChangeColor.js --> ChangeColor.tsx
+* src/components/Login.js --> Login.tsx
+* src/components/Profile.js --> Profile.tsx
+* src/features/theme.js --> theme.ts
+* src/features/user.js --> user.ts
+* src/App.js --> App.tsx
+* src/index.js --> index.tsx
+* src/reportWebVitals.js --> reportWebVitals.ts 
+======================
+
+The following is common to create-react-app:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
